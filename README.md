@@ -8,7 +8,7 @@ Extra Features : Dark Mode & i18n features.
 
 Technologies used:
 1. HTML
-2. CSS
+2. SASS
 3. jQuery
 
 Resources used:
