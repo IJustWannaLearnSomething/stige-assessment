@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stige Assesment</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+    <nav>
+      <h1 class="english">STIGE</h1>
+      <h1 class="hindi invisible">स्टीज</h1>
+      <ul>
+        <li id="darkModeToggle">
+          <i class="darkModeBtn fas fa-moon"></i>
+          <i class="lightModeBtn fas fa-sun invisible"></i>
+        </li>
+        <li id="languageToggle">
+          <i id="languageToggle" class="fas fa-language"></i>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Signup Section -->
+    <section class="signup" id="signup">
+      <!-- Container for Both Columns -->
+      <div class="container">
+        <!-- Left/Up Column -->
+        <div class="left">
+          <img class="login-image" src="images/log-in.svg" alt="" />
+          <h2 class="english column-title">Login</h2>
+          <h2 class="hindi column-title invisible">लॉग इन करें</h2>
+          <p class="english column-subtitle">
+            Login if you already have an account.
+          </p>
+          <p class="hindi column-subtitle invisible">
+            अगर आपका पहले से ही एक अकाउंट है, तो लॉग इन करें।
+          </p>
+          <form class="login-form" action="">
+            <input
+              class="english"
+              type="text"
+              placeholder="Username"
+              required
+            />
+            <input
+              class="hindi invisible"
+              type="text"
+              placeholder="उपयोगकर्ता नाम"
+              required
+            />
+            <input
+              class="english"
+              type="password"
+              placeholder="Password"
+              required
+            />
+            <input
+              class="hindi invisible"
+              type="password"
+              placeholder="पासवर्ड"
+              required
+            />
+            <button class="login-btn">
+              <span class="english">Log In</span
+              ><span class="hindi invisible">लॉग इन करें</span>
+            </button>
+          </form>
+        </div>
+        <!-- Right/Down Column -->
+        <div class="right">
+          <img src="images/sign-up.svg" alt="" />
+          <h2 class="english column-title">Sign Up</h2>
+          <h2 class="hindi invisible column-title invisible">साइन अप करें</h2>
+          <p class="english column-subtitle">Create new account</p>
+          <p class="hindi invisible column-subtitle">नया खाता बनाएँ</p>
+          <form class="signup-form" action="">
+            <div class="form-field">
+              <input
+                class="english"
+                type="text"
+                placeholder="First Name"
+                required
+              />
+              <input
+                class="hindi invisible"
+                type="text"
+                placeholder="प्रथम नाम"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <input class="english" type="text" placeholder="Last Name" />
+              <input class="hindi invisible" type="text" placeholder="उपनाम" />
+            </div>
+            <div class="form-field">
+              <input
+                class="english"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <input
+                class="hindi invisible"
+                type="email"
+                placeholder="ईमेल"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <input
+                class="english"
+                type="password"
+                placeholder="Password"
+                required
+              />
+              <input
+                class="hindi invisible"
+                type="password"
+                placeholder="पासवर्ड"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <input
+                class="english"
+                type="password"
+                placeholder="Confirm Password"
+                required
+              />
+              <input
+                class="hindi invisible"
+                type="password"
+                placeholder="पासवर्ड की पुष्टि कीजिये"
+                required
+              />
+            </div>
+            <button class="signup-btn">
+              <span class="english">Sign Up</span
+              ><span class="hindi invisible">साइन अप करें</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made with ❤️ by Sanskar</p>
+      <p>© 2021</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
